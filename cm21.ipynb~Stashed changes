@@ -1,0 +1,54 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "source": [
+    "import os\n",
+    "import pandas as pd\n",
+    "import numpy as np\n",
+    "import matplotlib.pyplot as plt\n",
+    "import seaborn as sns\n",
+    "import glob\n",
+    "import functools"
+   ],
+   "outputs": [],
+   "metadata": {}
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "source": [
+    "Competitors_ages = \"../../datos/CM21/evolucion_cm21.csv\"\n",
+    "Competitors_ages_dt = pd.read_csv(Competitors_ages)\n",
+    "Competitors_ages_dt.describe()"
+   ],
+   "outputs": [],
+   "metadata": {}
+  }
+ ],
+ "metadata": {
+  "orig_nbformat": 4,
+  "language_info": {
+   "name": "python",
+   "version": "3.9.7",
+   "mimetype": "text/x-python",
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "pygments_lexer": "ipython3",
+   "nbconvert_exporter": "python",
+   "file_extension": ".py"
+  },
+  "kernelspec": {
+   "name": "python3",
+   "display_name": "Python 3.9.7 64-bit ('datathon': conda)"
+  },
+  "interpreter": {
+   "hash": "3df4161d2415b2554b6d72f588381e943bc074872f766653d5cd8dc05056e883"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
