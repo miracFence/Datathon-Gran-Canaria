@@ -7,7 +7,7 @@ import bg3 from "../images/bg3.jpg"
 import bg4 from "../images/bg4.jpg"
 import bg5 from "../images/bg5.jpg"
 import bg6 from "../images/bg6.jpg"
-import bg7 from "../images/bg7.jpg"
+
 
 function Propuesta() {
   return (
@@ -15,8 +15,8 @@ function Propuesta() {
       <div class="mainDiv container-fluid">
       <div class="propDiv" style={{ backgroundImage: `url(${bg1})`, color: 'white' }}>
         <div class="container p-3">
-        <h1>Descripcion general</h1>
-        <p>Esta es una propuesta de negocio que busca mejorar la calidad de la experiencia de los turistas, buscando la manera de maximizar la personalización de cada viaje que realice actividades culturales que representan la grandeza natural y cultural de Gran Canaria, a la vez que se cuida al medio ambiente en el proceso (Ecotourism).</p>
+        <h1>Descripción general</h1>
+        <p>Esta es una propuesta de negocio que busca mejorar la calidad de la experiencia de los turistas, buscando la manera de maximizar la personalización de cada viaje que realice actividades culturales que representan la grandeza natural y cultural de Gran Canaria, de forma que se llegan a nuevos nichos de mercado a la vez que se cuida al medio ambiente en el proceso (Ecotourism). </p>
         </div>
       </div>
       <div class="propDiv" style={{ backgroundImage: `url(${bg2})`, color: 'white' }}>
@@ -55,15 +55,12 @@ function Propuesta() {
       </div>
       <div class="propDiv" style={{ backgroundImage: `url(${bg6})`, color: 'black' }}>
         <div class="container p-3">
-        <h1>Plan de accion</h1>
+        <h1>Plan de acción</h1>
         <p>El plan de accion esta previsto para ser concluido en 6 meses.</p>
         <p>Meses 1-2:<br/>
-        Hacer un sitio web profecional y aplicacion de mobil, publicitar en redes sociales islas canarias y dirigir directamente al sitio web o a la aplicacion mobil respectivamente.<br/>
-        Convencer a inversionistas de hacer hoteles verdes con una estrategia de negocio rentable( ya que no son muy caros de hacer y terminan siendo bastante rentables)<br/>
-        Hacer los espacios seguros para mujeres y jovencitas. que le daria confianza a mujeres que se quieren divertir y no quieren ser molestadas o acosadas por hombres.<br/>
-        Hacer los salones con computadoras y profesores de apoyo para que los ninos puedan tomar clases y que no sea un empedimiento la disponibilidad de clases de calidad a distancia para salir de vacaciones</p>
+        Ya que estas estrategias no requieren demasiado esfuerzo o inversión pueden ser completadas en un período de 1 a 2 meses</p>
         <p>Meses 3-6:<br/>
-        Seguir con los puntos ya establecidos y agregar los hoteles verdes a la pagina web</p>
+        En los siguientes meses se debe de establecer una metodología para llevar todo a cabo, continuar con las estrategias anteriormente mencionadas</p>
         </div>
       </div>
       <div className="slider" class="propDiv" style={{ backgroundColor: 'lightblue', color: 'black' }}>
