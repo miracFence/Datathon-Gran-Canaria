@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.analysis .actualSlider{
+  position: relative;
+  height: 500vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  max-height: 80%;
+  max-width: 50%;
+}
+
+.image{
+  max-width:100%;
+  height: 690px;
+  border-radius: 10px;
+  border-color: #000;
+}
+
+.slide{
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active{
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.02);
+}
+
+.right-arrow{
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+ .left-arrow{
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.analysis{
+  text-align: center;
+}
+
+
+.analysis .title{
+  margin: 2rem;
+}
+
+.analysis .title .parag{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  align-content: center;
+}
+
+.home,
+.propuesta {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.analysis .analysisOptions{
+  width: 0fr;
+  display: flex;
+  align-items: center;
+  font-size: small;
+  justify-content: center;
+}
+
+.analysis .figure{
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
