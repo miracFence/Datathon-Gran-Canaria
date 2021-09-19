@@ -11,14 +11,27 @@ body {
   overflow: hidden;
 }
 
+.jumbotron {
+  color: white;
+  background-image: url("./images/introduction_img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .mainDiv{
   padding: 0px;
-  
 }
 
 .propDiv{
   padding: 5px;
   min-height: 50vh;
+}
+
+.slideDescription{
+  margin-left: 1rem;
+  max-width: 98%;
 }
 
 .home,
@@ -44,7 +57,7 @@ body {
 }
 
 .image{
-  max-width:100%;
+  max-width:95%;
   height: 690px;
   border-radius: 10px;
   border-color: #000;
@@ -62,7 +75,7 @@ body {
 }
 
 .right-arrow{
-  position: absolute;
+  position:sticky;
   top: 50%;
   right: 32px;
   font-size: 3rem;
@@ -73,7 +86,7 @@ body {
 }
 
  .left-arrow{
-  position: absolute;
+  position: sticky;
   top: 50%;
   left: 32px;
   font-size: 3rem;
