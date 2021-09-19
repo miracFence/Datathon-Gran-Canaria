@@ -11,6 +11,16 @@ body {
   overflow: hidden;
 }
 
+.mainDiv{
+  padding: 0px;
+  
+}
+
+.propDiv{
+  padding: 5px;
+  min-height: 50vh;
+}
+
 .home,
 .propuesta,
 .analysis {
@@ -78,10 +88,6 @@ body {
   overflow-y: auto;
 }
 
-.mainDiv{
-  padding: 10px;
-}
-
 .analysis{
   text-align: center;
   overflow-y: auto;
@@ -112,4 +118,3 @@ body {
   align-items: center;
   justify-content: center;
 }
-
