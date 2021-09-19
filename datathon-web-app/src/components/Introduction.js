@@ -1,15 +1,17 @@
 import React from "react";
 import { Card } from "react-bootstrap";
+import eco from '../images/hotel_eco.jpg';
+import senderismo from "../images/senderismo.jpg";
 
 const Introduction = () => {
   return (
     <>
       <Card className="card">
-        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Img variant="top" src={eco} />
         <Card.Body>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Gran Canaria es un centro de oportunidad para las personas que buscan un lugar en donde convivir con la naturaleza de manera tranquila, 
+            siempre preservando el medio ambiente. 
           </Card.Text>
         </Card.Body>
       </Card>
@@ -17,11 +19,12 @@ const Introduction = () => {
       <Card className="card">
         <Card.Body>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Se cuenta con actividades como senderismo, surf, buceo, paseo en camello, paseo en bicicleta y más formas de interactuar de manera tranquila con la naturaleza. 
+            Esto no sólo genera una oportunidad de negocio aun más explotable para Gran Canaria, sino que permite establecer nuevas formas de personalizar los 
+            viajes de los turistas tomando en cuenta sus preferencias
           </Card.Text>
         </Card.Body>
-        <Card.Img variant="bottom" src="holder.js/100px180" />
+        <Card.Img variant="bottom" src={senderismo} />
       </Card>
     </>
   );
