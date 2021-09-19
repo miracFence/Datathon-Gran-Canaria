@@ -25,13 +25,12 @@ const ImageSlider = ({slides}) => {
 
         {slides.map((slide, index) => {
             return(
-
                 <div className={index === currentImage ? 'slide active' : 'slide'}
                 key={index }>
                     {index === currentImage && (
                     <img src = {slide.image} alt = "analysis image" className="image"/>)}
+                    <p className="slideDescription">{slide.description}</p>
                 </div>
-
             )
         })}
         </section>
