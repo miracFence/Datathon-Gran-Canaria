@@ -6,6 +6,7 @@ import senderismo from "../images/senderismo.jpg";
 const Introduction = () => {
   return (
     <>
+    <div class="row">
       <Card className="card">
         <Card.Img variant="top" src={eco} />
         <Card.Body>
@@ -26,6 +27,7 @@ const Introduction = () => {
         </Card.Body>
         <Card.Img variant="bottom" src={senderismo} />
       </Card>
+      </div>
     </>
   );
 };

@@ -21,11 +21,5 @@ export const SidebarData = [
     path: '/propuesta',
     icon: <FaIcons.FaMoneyBill />,
     cName: 'nav-text'
-  },
-  {
-    title: 'Ocean challenge',
-    path: '/team',
-    icon: <IoIcons.IoFishOutline />,
-    cName: 'nav-text'
   }
 ];
