@@ -13,6 +13,8 @@ Los pasos a seguir para poder correr la página de manera local son:
   - npm install
   - npm start
 
+Actualmente la página está hosteada en: https://smart-destinations-equipo-15.netlify.app
+
 ### app_movil
 Contiene el diseño de la aplicación móvil que se plantea en la propuesta de negocio
 
