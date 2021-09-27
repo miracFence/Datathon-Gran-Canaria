@@ -1,21 +1,21 @@
 # Datathon-Gran Canaria
-Este es el repositorio que  contiene los artefactos de código de la para la competencia de Smart Destinations del Datathon Gran Canaria 2021.
+This is the repository that contains the code artifacts for the Smart Destinations competition of the Datathon Gran Canaria 2021.
 
-## Estructura del proyecto
+## Project structure
 
 ### Smart Destinations
-Contiene los archivos de análisis de datos de los diferentes datasets que se proporcionaron en la competencia. 
-**Cada archivo contendrá explicación del análisis llevado a cabo**
+It contains the data analysis files of the different datasets that were provided in the competition.
+** Each file will contain an explanation of the analysis carried out **
 
 ### datathon-web-app
-Esta carpeta contiene los archivos que se pueden correr localmente en una computadora, con el uso de npm (Node.js).
-Los pasos a seguir para poder correr la página de manera local son:
-  - npm install
-  - npm start
+This folder contains the files that can be run locally on a computer, with the use of npm (Node.js).
+The steps to follow to be able to run the page locally are:
+   - npm install
+   - npm start
 
-Actualmente la página está hosteada en: https://smart-destinations-equipo-15.netlify.app
+Currently, this page can be found as: https://smart-destinations-equipo-15.netlify.app
 
 ### app_movil
-Contiene el diseño de la aplicación móvil que se plantea en la propuesta de negocio
+It contains the design of the mobile app that demonstrates the business proposal
 
 
